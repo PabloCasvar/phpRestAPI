@@ -17,7 +17,7 @@ $product = new Product($db);
 // query products
 $stmt = $product->read();
 $num = $stmt->rowCount();
-echo $num;
+ 
 // check if more than 0 record found
 if($num>0){
  
